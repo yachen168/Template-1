@@ -174,3 +174,41 @@ span {
     margin-top: 0;
     margin-bottom: 40px;
 }
+
+
+/* ------footer----- */
+
+footer {
+    background-color: var(--color-gray);
+}
+
+footer .wrapper {
+    padding: 25px 35px;
+    font-size: 0;
+}
+
+.copyright,
+.social {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.copyright {
+    color: #555;
+    font-size: 14px;
+}
+
+.social {
+    text-align: right;
+    font-size: 0;
+}
+
+.social a {
+    display: inline-block;
+}
+
+.social img {
+    width: 35px;
+    margin-right: 20px;
+}
