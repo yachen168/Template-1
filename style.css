@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-gray: #EFEFEF;
+}
+
 html,
 body {
     margin: 0;
@@ -22,4 +30,55 @@ h3 {
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+
+/*------header------*/
+
+header {
+    background-color: var(--color-gray);
+}
+
+nav {
+    font-size: 0;
+    padding: 25px 0;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav .logo {
+    width: 12%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 16px;
+    color: #333;
+}
+
+nav .list {
+    display: inline-block;
+    width: 88%;
+    vertical-align: middle;
+    padding-left: 5%;
+}
+
+nav .list a {
+    color: #666;
+    font-size: 18px;
+    padding: 10px 0;
+    width: 10%;
+    text-align: center;
+}
+
+nav .list a+a {
+    margin-left: 10%;
+}
+
+nav .list a:hover {
+    color: #F28500;
 }
