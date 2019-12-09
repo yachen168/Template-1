@@ -82,3 +82,75 @@ nav .list a+a {
 nav .list a:hover {
     color: #F28500;
 }
+
+
+/*------main-------*/
+
+.banner {
+    font-size: 0;
+    background-color: #FDFDFD;
+}
+
+.banner .wrapper {
+    padding: 55px 6%;
+}
+
+.ideas,
+.image {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.ideas {
+    padding-right: 4%;
+}
+
+.ideas h2 {
+    font-size: 65px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ideas h3 {
+    margin: 0;
+}
+
+.ideas p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.image img {
+    width: 100%;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #FFBD55 50%, #F99500 50%);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ideas a,
+span {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ideas a {
+    text-decoration: none;
+    color: black;
+}
+
+.ideas span {
+    font-size: 15px;
+    color: #555;
+}
